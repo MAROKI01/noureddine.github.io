@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../CSS/img/logo-title.png"/>
+  <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style_enregistrement.css">
+<link href='https://unpkg.com/css.gg@2.0.0/icons/css/select-o.css' rel='stylesheet'>
+  <title>Enregistrer</title>
+</head>
+<body class="container-fluid">
+  <thead class="">
+    <div class="nav-container shadow-sm">
+      <nav class="navbar navbar-expand-lg p-0">
+        <div class="container-fluid px-0">
+          <div class="ms-4 mt-1"><a href="#"><img class="navbar-brand logo" src="../CSS/img/logo.png" alt="BEZTAM"></a></div>
+          <div>
+            <ul class="nav justify-content-end me-2">
+            <li class="nav-item"><a class="nav-link fw-bold px-5" href="Home_page.html">Home</a></li>
+            <li class="nav-item btn-retour"><a class="nav-link fw-bold px-5 " href="Home_page.html">Retour</a></li>
+            <li class="nav-item btn-desab"><a class="nav-link fw-bold px-4 " href="compte.html">Mon compte</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </thead>
+<tbody class=" ">
+  <div class="row row-cols-auto row-cols-md-1 g-4 mt-4 pt-3 mx-5 px-5 justify-content-center text-center">
+      <div class="row"><h2 class="fw-bold"> Bonjour !</h2></div>
+      <div class="row"><p>Ajoutez vos dépenses</p></div>
+    </div>
+    <div class="row row-cols-2 row-col- row-cols-md-1 g- mt-5 pt-3 mx-5 px-5 ">
+    
+        <div class="col-4 justify-content-center align-items-center">
+          <form action="../PHP/Enregistrement/Traitement_enregistrement.php" method="post">
+    <div class="input-box"><input class="shadow-sm" type="text" name="motif" placeholder="Motif" required></div>
+
+    <div class="select-container mt-3">
+    <select name="categorie" id="categorie" class="select-box rounded shadow-sm" required>
+    <option> Catégorie </option>
+    <option value="Loisir">Loisirs</option>
+    <option value="Sante">Santé</option>
+    <option value="Alimentation">Alimentation</option>
+    <option value="Autre">Autre</option>
+        </select>
+    <div class="icon-container"><i class="gg-select-o"></i></div>
+    </div>
+    <div class="input-box mt-3"><input class="shadow-sm" type="number" step="0.01" name="cout" placeholder="Cout (DH)" required></div>
+    </div>
+        
+      <div class="col-4">
+
+        <div class="input-box">
+          <div class="input-box"><input class="shadow-sm" type="number" name="qte" value="1" placeholder="Quantité (par defaut 1)"></div>
+        <textarea class="shadow-sm" name="note" rows="4" cols="50" placeholder="Note"></textarea>
+      </div>
+        
+        </div>
+        <div class="col-4 col-sm-2 align-items-center justify-content-center">
+        <div class="btns justify-content-center pt-5">
+        <div class="input-btn1 "><button type="submit" class="shadow-sm"> Valider </button></div>
+        <div class="input-btn2"><button type="reset" class="shadow-sm" > Annuler </button></div>
+        </div>
+        </div>
+    </form>
+    </div>
+  </div>
+  </div>
+  <footer class="container-fluid">
+    <div class="col mx-auto" style="color: #002D4C;">Faculté des Sciences et Techniques Béni Mellal 2023 </div>
+  </footer>
+</tbody>
+</body> 
+</html>

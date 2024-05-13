@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000311;
+    background-size: cover;
+    background-image: url(../CSS/img/bg4.png);
+    background-size: 50%;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}
+.container,.nav-container{
+    position: relative;
+    z-index: 50;
+}
+
+.logo{
+    width: 120px;
+}
+ .navbar .container-fluid ul li a {
+    color: #fff;
+}
+ .navbar .container-fluid ul li a:hover {
+    color: #ff8c00;
+    background-color: #ffffff;
+}
+.main-container{
+    color: #000311;
+    box-shadow: 0px 0px px 1px #002D4C ;
+    border: 1px solid #ffffff;
+}
+.select-container {
+    position: relative;
+    min-width: 97.5%;
+}
+.select-box{
+    color: #002e4c6d;
+    height: 45px;
+    padding: 10px 10px;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+
+}
+.input-box{
+    margin: 10px 0px; 
+    padding: 0px 0px;  
+}
+.input-btn{
+    padding: 0px 0px;
+}
+.input-box input{
+    height: 45px;
+    padding: 20px 15px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cbcbcb;
+}
+.input-nom .input-box input {
+    height: 45px;
+    padding: 20px 15px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #DAEFFF;
+}
+
+.input-box input::placeholder{
+    color:#002D4C;
+    opacity: 0.4;
+}
+
+.input-btn button{
+    background-color: #ff8c00;
+    color: #ffffff;
+    padding: 7px 30px;
+    margin-top: 10px;
+    border: none;
+    width: 50%;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.input-btn button:hover{
+    background-color: #ffffff;
+    color: #ff8c00;
+    padding: 7px 30px;
+    margin-top: 10px;
+    border: 2px solid #ff8c00;
+    width: 50%;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff8c00;
+}
+
+p a:hover{
+    color: #ff8c00;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  table{
+    font-size: small;
+  }
+
+  .btn {
+    font-size: small;
+  }

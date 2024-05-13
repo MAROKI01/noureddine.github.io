@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../CSS/img/logo-title.png"/>
+<link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/style_inscription.css">
+  <title>Se connecter</title>
+</head>
+<body class="">
+  
+<thead class="nav-container">
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="navbar-brand logo " src="../CSS/img/logo1.png" alt="BEZTAM"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon me-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+        </svg>
+      </span>
+      </button>
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 me-0 float-end">
+          <li class="nav-item "><a class="nav-link fw-bold px-5 " href="#">About</a></li>
+          <li class="nav-item "><a class="nav-link fw-bold px-5 " href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</thead>
+<tbody class="">
+  <div class="container mt-4 p-0">
+    <div class="row  pt-4 pb-4 ">
+      <div class="col-xxl-6 col-sm-4 col-md-6 text-center justify-content-center px-0 bg-white mt-4 rounded-3 main-container shadow">
+        <div class="fs-2 fw-bold pt-3"><strong>Gérez votre argent <br /> facilement !</strong></div>
+        <form action="../PHP/Connexion/Traitement_connexion.php" method="post">
+        <div class="row mt-3">
+          <div class="input-box"><input class="shadow-sm" type="email" name="mail" placeholder="Email"></div>
+        <div class="input-box "><input class="shadow-sm" type="password" name="md" placeholder="Mot de passe"></div>
+        <div class="input-btn "><button class="shadow-sm" type="submit"> se connecter </button></div>
+        <p class="mt-2"> Tu n'a pas encore enregistrer ?<a href="Inscription.html"> S'inscrire </a></p>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+  <footer class="container-fluid p-0">
+    <div class="col mx-auto" style="color: #ffffff;">Faculté des Sciences et Techniques Béni Mellal 2023 </div>
+  </footer>
+</tbody>
+<script src="../../bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+</body> 
+</html>

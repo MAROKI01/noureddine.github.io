@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="../CSS/img/logo-title.png"/>
+  <link rel="stylesheet" href="../../bootstrap-5.0.2-dist/css/bootstrap.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../CSS/Supprimer.css">
+  <title>Suppression</title>
+</head>
+<body class="container-fluid">
+<thead class="">
+  <div class="nav-container shadow-sm">
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container-fluid px-0">
+        <div class="ms-4 mt-1"><a href="#"><img class="navbar-brand logo" src="../CSS/img/logo.png" alt="BEZTAM"></a></div>
+        <div>
+          <ul class="nav justify-content-end me-2">
+            <li class="nav-item"><a class="nav-link fw-bold px-5" href="Home_page.html">Home</a></li>
+            <li class="nav-item btn-retour"><a class="nav-link fw-bold px-5 " href="Supprimer-home.html">Retour</a></li>
+            <li class="nav-item btn-desab"><a class="nav-link fw-bold px-4 " href="compte.html">Mon compte</a></li>          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+</thead>
+<tbody class=" ">
+  <div class="container">
+     <div class="row text-center mt-5">
+      <h2 class="fw-bold ">Supprimer une journée de dépenses</h2>
+     </div>
+      <div class="row row-cols-1 row-cols-md- mt-5 pt-4 mx-5 px-5 justify-content-center text-center">
+        <form action="../PHP/Enregistrement/Supp_tout/Traitement_Supp_d_jour.php" method="post">
+          <div class="input-box mx-5"><input type="date" name="date" placeholder="Date" required></div><br>
+          <div class="input-btn "><button type="submit" > Supprimer </button></div>
+          <div class="input-btn2 "><button type="reset"> Annuler</button></div>
+  
+      </form>
+      </div>
+      
+  </div>
+  <footer class="container-fluid">
+    <div class="col mx-auto" style="color: #002D4C;">Faculté des Sciences et Techniques Béni Mellal 2023 </div>
+  </footer>
+</tbody>
+</body> 
+</html>

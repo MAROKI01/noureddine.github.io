@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #3FA9F5;
+    background-size: cover;
+    background-image: url(../CSS/img/bgd6.jpg);
+    background-size: 100%;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+}
+.container,.nav-container{
+    position: relative;
+    z-index: 50;
+}
+/* .bgd{
+    background-size: cover;
+    background-image: url(../CSS/img/bgd6.jpg);
+    background-repeat:no-repeat;
+    height: 100vh;
+    width: 227.2vh;
+    position: absolute;
+    opacity: 0.9;
+    z-index: -50;
+} */
+.logo{
+    width: 120px;
+}
+ .navbar .container-fluid ul li a {
+    color: #fff;
+}
+ .navbar .container-fluid ul li a:hover {
+    color: #3FA9F5;
+    background-color: #ffffff;
+}
+.main-container{
+    color: #002D4C;
+    box-shadow: 0px 0px px 1px #002D4C ;
+}
+/* .input-nom {
+    width: 70%;
+    
+} */
+
+.input-box{
+    margin: 10px 0px; 
+    padding: 0px 0px;  
+
+}
+.input-btn{
+    padding: 0px 0px;
+}
+.input-box input{
+    height: 45px;
+    padding: 20px 15px;
+    width: 80%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #DAEFFF;
+}
+.input-nom .input-box input {
+    height: 45px;
+    padding: 20px 15px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #DAEFFF;
+}
+
+.input-box input::placeholder{
+    color:#002D4C;
+}
+
+.input-btn button{
+    background-color: #3FA9F5;
+    color: #ffffff;
+    padding: 7px 30px;
+    margin-top: 10px;
+    border: none;
+    width: 50%;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.input-btn button:hover{
+    background-color: #ffffff;
+    color: #3FA9F5;
+    padding: 7px 30px;
+    margin-top: 10px;
+    border: 2px solid #3FA9F5;
+    width: 50%;
+    height: 45px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+p a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #002D4C;
+}
+
+p a:hover{
+    color: #002D4C;
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
